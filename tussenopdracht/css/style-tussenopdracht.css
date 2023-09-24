@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px ;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: black solid 3px;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    background-color: #C08261;
+    align-items: center;    
+    border-bottom: black solid 3px;
+}
+
+nav img {
+    margin: 15px 30px;
+    border-radius: 5px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #E2C799;
+}
+
+
+.schaakbord-container{
+    padding: 30px;
+    border-bottom: black solid 3px;
+}
+.schaakbord-met-prijs {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+.schaakbord-prijs-uitleg {
+    padding: 20px;
+}
+.schaakbord-prijs-uitleg p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.bestel-hier-schaakbord {
+    background-color: #C08261;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.bestel-hier-schaakbord:hover {
+    background-color: #E2C799;;
+}
+
+
+.omschrijving-container {
+    display: flex;
+    padding: 40px;
+    gap: 100px;
+    border-bottom: black solid 3px;
+}
+
+.plus-minpunten {
+    flex: 3;
+    background-color: #F2ECBE;
+    padding: 20px;
+    text-align: left;
+}
+.omschrijving {
+    flex: 5;
+}
+
+
+.gerelateerde-producten h2 {
+    padding: 50px;
+    text-align: center;
+
+}
+
+.gerelateerde-producten-fotos {
+    display: flex;
+    justify-content: center;   
+    align-items: center;     
+}
+
+.gerelateerde-producten {
+    background-color: #E2C799
+}
+
+
+
+
+footer {
+    background-color: #C08261;
+}
+.footer-links {
+    display: flex;
+    gap: 20px;
+    padding: 100px;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
